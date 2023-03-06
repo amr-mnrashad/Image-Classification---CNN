@@ -1,0 +1,52 @@
+Found 15827 files belonging to 2 classes.
+Found 3958 files belonging to 2 classes.
+Epoch 1/25
+495/495 [==============================] - 25s 48ms/step - loss: 0.6636 - accuracy: 0.5935 - val_loss: 0.6136 - val_accuracy: 0.6632 - lr: 0.0010
+Epoch 2/25
+495/495 [==============================] - 25s 51ms/step - loss: 0.5856 - accuracy: 0.6900 - val_loss: 0.5865 - val_accuracy: 0.6943 - lr: 0.0010
+Epoch 3/25
+495/495 [==============================] - 26s 53ms/step - loss: 0.5157 - accuracy: 0.7438 - val_loss: 0.4822 - val_accuracy: 0.7660 - lr: 0.0010
+Epoch 4/25
+495/495 [==============================] - 26s 53ms/step - loss: 0.4643 - accuracy: 0.7785 - val_loss: 0.4760 - val_accuracy: 0.7696 - lr: 0.0010
+Epoch 5/25
+495/495 [==============================] - 26s 53ms/step - loss: 0.4101 - accuracy: 0.8125 - val_loss: 0.5006 - val_accuracy: 0.7582 - lr: 0.0010
+Epoch 6/25
+495/495 [==============================] - 27s 55ms/step - loss: 0.3545 - accuracy: 0.8419 - val_loss: 0.5549 - val_accuracy: 0.7577 - lr: 0.0010
+Epoch 7/25
+495/495 [==============================] - 28s 57ms/step - loss: 0.3107 - accuracy: 0.8650 - val_loss: 0.5311 - val_accuracy: 0.7759 - lr: 0.0010
+Epoch 8/25
+495/495 [==============================] - 28s 56ms/step - loss: 0.2581 - accuracy: 0.8923 - val_loss: 0.6429 - val_accuracy: 0.7643 - lr: 0.0010
+Epoch 9/25
+495/495 [==============================] - 28s 56ms/step - loss: 0.2247 - accuracy: 0.9088 - val_loss: 0.7464 - val_accuracy: 0.7484 - lr: 0.0010
+Epoch 10/25
+495/495 [==============================] - 29s 58ms/step - loss: 0.1771 - accuracy: 0.9302 - val_loss: 0.6701 - val_accuracy: 0.7726 - lr: 0.0010
+Epoch 11/25
+495/495 [==============================] - 32s 64ms/step - loss: 0.1468 - accuracy: 0.9409 - val_loss: 0.7681 - val_accuracy: 0.7658 - lr: 0.0010
+Epoch 12/25
+495/495 [==============================] - 30s 60ms/step - loss: 0.1320 - accuracy: 0.9473 - val_loss: 0.7862 - val_accuracy: 0.7837 - lr: 0.0010
+Epoch 13/25
+495/495 [==============================] - 29s 59ms/step - loss: 0.0952 - accuracy: 0.9632 - val_loss: 0.9549 - val_accuracy: 0.7703 - lr: 0.0010
+Epoch 14/25
+495/495 [==============================] - 30s 60ms/step - loss: 0.0990 - accuracy: 0.9618 - val_loss: 1.0261 - val_accuracy: 0.7686 - lr: 0.0010
+Epoch 15/25
+495/495 [==============================] - 25s 50ms/step - loss: 0.0586 - accuracy: 0.9785 - val_loss: 0.9284 - val_accuracy: 0.7827 - lr: 1.0000e-04
+Epoch 16/25
+495/495 [==============================] - 24s 48ms/step - loss: 0.0344 - accuracy: 0.9902 - val_loss: 0.9534 - val_accuracy: 0.7827 - lr: 1.0000e-04
+Epoch 17/25
+495/495 [==============================] - 24s 48ms/step - loss: 0.0262 - accuracy: 0.9944 - val_loss: 0.9830 - val_accuracy: 0.7845 - lr: 1.0000e-04
+Epoch 18/25
+495/495 [==============================] - 24s 48ms/step - loss: 0.0207 - accuracy: 0.9964 - val_loss: 1.0154 - val_accuracy: 0.7847 - lr: 1.0000e-04
+Epoch 19/25
+495/495 [==============================] - 24s 48ms/step - loss: 0.0165 - accuracy: 0.9980 - val_loss: 1.0524 - val_accuracy: 0.7840 - lr: 1.0000e-04
+Epoch 20/25
+495/495 [==============================] - 24s 49ms/step - loss: 0.0133 - accuracy: 0.9984 - val_loss: 1.0941 - val_accuracy: 0.7847 - lr: 1.0000e-04
+Epoch 21/25
+495/495 [==============================] - 24s 48ms/step - loss: 0.0105 - accuracy: 0.9991 - val_loss: 1.1374 - val_accuracy: 0.7852 - lr: 1.0000e-04
+Epoch 22/25
+495/495 [==============================] - 26s 53ms/step - loss: 0.0083 - accuracy: 0.9996 - val_loss: 1.1853 - val_accuracy: 0.7870 - lr: 1.0000e-04
+Epoch 23/25
+495/495 [==============================] - 29s 58ms/step - loss: 0.0066 - accuracy: 0.9997 - val_loss: 1.2296 - val_accuracy: 0.7850 - lr: 1.0000e-04
+Epoch 24/25
+495/495 [==============================] - 29s 58ms/step - loss: 0.0050 - accuracy: 0.9997 - val_loss: 1.2774 - val_accuracy: 0.7860 - lr: 1.0000e-04
+Epoch 25/25
+495/495 [==============================] - 31s 62ms/step - loss: 0.0048 - accuracy: 0.9999 - val_loss: 1.2823 - val_accuracy: 0.7880 - lr: 1.0000e-05

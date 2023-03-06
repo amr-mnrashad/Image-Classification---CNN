@@ -1,0 +1,39 @@
+def cnn_model():    
+    model = Sequential()
+    #Resizing the images
+    model.add(Resizing(100,100))
+    #- Scaling the image values between 0 & 1 instead of 0 to 255. This will help our Deep learning model to optimize faster and produce better results.
+    model.add(Rescaling(1./255))
+    
+    #Adding a convolutional layer and a MaxPooling layer
+    #Each filter is going to be 3x3 in size and we are moving by 2 step/stride each time
+    #Activation is going to be Rectified Linear Unit(relu), meaning any output below zero is going to be equal 0 and any other positive value is going to be preserved
+    #MaxPooling helps us condense the information we get after the activation with the aim of getting the maximum values
+    #MaxPooling halves the output of the Convolutional layer
+
+    #First Layer
+    model.add(Conv2D(32, (3,3), 2, activation = 'relu'))
+    model.add(MaxPooling2D(2,2))
+
+    #Second Layer
+    model.add(Conv2D(64, (3,3), 2, activation = 'relu'))
+    model.add(MaxPooling2D(2,2))
+
+    #Third Layer
+    model.add(Conv2D(128, (3,3), 2, activation = 'relu'))
+    model.add(MaxPooling2D(2,2))
+    
+
+    #We have condensed the rows and the width and the number of filters will form the channel value
+    #Now the aim when flattening the data is condense the channel value to a single value
+    model.add(Flatten())
+
+    model.add(Dense(128, activation = 'relu'))
+
+    #Now we are condensing them even more to get the final value (0 or 1 --> cat or dog)
+    model.add(Dense(1, activation = 'sigmoid'))
+
+    #List of optimizers can be checked --> (tf.optimizers.)
+    model.compile('adam', loss = tf.losses.BinaryCrossentropy(), metrics = ['accuracy'])
+
+    return model
