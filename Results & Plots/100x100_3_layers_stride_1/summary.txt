@@ -1,0 +1,45 @@
+Model: "sequential_6"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ resizing_6 (Resizing)       (None, 100, 100, 3)       0         
+                                                                 
+ rescaling_5 (Rescaling)     (None, 100, 100, 3)       0         
+                                                                 
+ random_flip_2 (RandomFlip)  (None, 100, 100, 3)       0         
+                                                                 
+ random_rotation_2 (RandomRo  (None, 100, 100, 3)      0         
+ tation)                                                         
+                                                                 
+ random_zoom_2 (RandomZoom)  (None, 100, 100, 3)       0         
+                                                                 
+ conv2d_18 (Conv2D)          (None, 98, 98, 32)        896       
+                                                                 
+ max_pooling2d_18 (MaxPoolin  (None, 49, 49, 32)       0         
+ g2D)                                                            
+                                                                 
+ conv2d_19 (Conv2D)          (None, 47, 47, 64)        18496     
+                                                                 
+ max_pooling2d_19 (MaxPoolin  (None, 23, 23, 64)       0         
+ g2D)                                                            
+                                                                 
+ conv2d_20 (Conv2D)          (None, 21, 21, 128)       73856     
+                                                                 
+ max_pooling2d_20 (MaxPoolin  (None, 10, 10, 128)      0         
+ g2D)                                                            
+                                                                 
+ dropout_8 (Dropout)         (None, 10, 10, 128)       0         
+                                                                 
+ flatten_6 (Flatten)         (None, 12800)             0         
+                                                                 
+ dense_12 (Dense)            (None, 128)               1638528   
+                                                                 
+ dropout_9 (Dropout)         (None, 128)               0         
+                                                                 
+ dense_13 (Dense)            (None, 1)                 129       
+                                                                 
+=================================================================
+Total params: 1,731,905
+Trainable params: 1,731,905
+Non-trainable params: 0
+_________________________________________________________________
