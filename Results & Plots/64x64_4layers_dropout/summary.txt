@@ -1,0 +1,50 @@
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ resizing_2 (Resizing)       (None, 64, 64, 3)         0         
+                                                                 
+ rescaling_2 (Rescaling)     (None, 64, 64, 3)         0         
+                                                                 
+ random_flip_2 (RandomFlip)  (None, 64, 64, 3)         0         
+                                                                 
+ random_rotation_2 (RandomRo  (None, 64, 64, 3)        0         
+ tation)                                                         
+                                                                 
+ random_zoom_2 (RandomZoom)  (None, 64, 64, 3)         0         
+                                                                 
+ conv2d_8 (Conv2D)           (None, 62, 62, 32)        896       
+                                                                 
+ max_pooling2d_8 (MaxPooling  (None, 31, 31, 32)       0         
+ 2D)                                                             
+                                                                 
+ conv2d_9 (Conv2D)           (None, 29, 29, 64)        18496     
+                                                                 
+ max_pooling2d_9 (MaxPooling  (None, 14, 14, 64)       0         
+ 2D)                                                             
+                                                                 
+ conv2d_10 (Conv2D)          (None, 12, 12, 128)       73856     
+                                                                 
+ max_pooling2d_10 (MaxPoolin  (None, 6, 6, 128)        0         
+ g2D)                                                            
+                                                                 
+ conv2d_11 (Conv2D)          (None, 4, 4, 256)         295168    
+                                                                 
+ max_pooling2d_11 (MaxPoolin  (None, 2, 2, 256)        0         
+ g2D)                                                            
+                                                                 
+ dropout_4 (Dropout)         (None, 2, 2, 256)         0         
+                                                                 
+ flatten_2 (Flatten)         (None, 1024)              0         
+                                                                 
+ dense_4 (Dense)             (None, 128)               131200    
+                                                                 
+ dropout_5 (Dropout)         (None, 128)               0         
+                                                                 
+ dense_5 (Dense)             (None, 1)                 129       
+                                                                 
+=================================================================
+Total params: 519,745
+Trainable params: 519,745
+Non-trainable params: 0
+_________________________________________________________________
