@@ -1,0 +1,52 @@
+Found 15827 files belonging to 2 classes.
+Found 3958 files belonging to 2 classes.
+Epoch 1/25
+495/495 [==============================] - 28s 55ms/step - loss: 0.6804 - accuracy: 0.5530 - val_loss: 0.6469 - val_accuracy: 0.6289 - lr: 0.0010
+Epoch 2/25
+495/495 [==============================] - 27s 54ms/step - loss: 0.6313 - accuracy: 0.6500 - val_loss: 0.5939 - val_accuracy: 0.6938 - lr: 0.0010
+Epoch 3/25
+495/495 [==============================] - 23s 45ms/step - loss: 0.5686 - accuracy: 0.7086 - val_loss: 0.5944 - val_accuracy: 0.6817 - lr: 0.0010
+Epoch 4/25
+495/495 [==============================] - 20s 41ms/step - loss: 0.5229 - accuracy: 0.7440 - val_loss: 0.5140 - val_accuracy: 0.7365 - lr: 0.0010
+Epoch 5/25
+495/495 [==============================] - 21s 42ms/step - loss: 0.4737 - accuracy: 0.7788 - val_loss: 0.5133 - val_accuracy: 0.7458 - lr: 0.0010
+Epoch 6/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.4403 - accuracy: 0.8002 - val_loss: 0.4984 - val_accuracy: 0.7602 - lr: 0.0010
+Epoch 7/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.3975 - accuracy: 0.8216 - val_loss: 0.4996 - val_accuracy: 0.7671 - lr: 0.0010
+Epoch 8/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.3535 - accuracy: 0.8457 - val_loss: 0.4973 - val_accuracy: 0.7671 - lr: 0.0010
+Epoch 9/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.3152 - accuracy: 0.8689 - val_loss: 0.5182 - val_accuracy: 0.7653 - lr: 0.0010
+Epoch 10/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.2771 - accuracy: 0.8872 - val_loss: 0.5588 - val_accuracy: 0.7633 - lr: 0.0010
+Epoch 11/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.2532 - accuracy: 0.8973 - val_loss: 0.5614 - val_accuracy: 0.7698 - lr: 0.0010
+Epoch 12/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.2187 - accuracy: 0.9115 - val_loss: 0.6109 - val_accuracy: 0.7605 - lr: 0.0010
+Epoch 13/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.2074 - accuracy: 0.9174 - val_loss: 0.6375 - val_accuracy: 0.7597 - lr: 0.0010
+Epoch 14/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.1814 - accuracy: 0.9275 - val_loss: 0.7084 - val_accuracy: 0.7504 - lr: 0.0010
+Epoch 15/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.1592 - accuracy: 0.9372 - val_loss: 0.6874 - val_accuracy: 0.7660 - lr: 0.0010
+Epoch 16/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.1414 - accuracy: 0.9435 - val_loss: 0.7136 - val_accuracy: 0.7615 - lr: 0.0010
+Epoch 17/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.1405 - accuracy: 0.9484 - val_loss: 0.7643 - val_accuracy: 0.7595 - lr: 0.0010
+Epoch 18/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.1218 - accuracy: 0.9515 - val_loss: 0.8367 - val_accuracy: 0.7532 - lr: 0.0010
+Epoch 19/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.0909 - accuracy: 0.9642 - val_loss: 0.7905 - val_accuracy: 0.7716 - lr: 1.0000e-04
+Epoch 20/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.0692 - accuracy: 0.9756 - val_loss: 0.8268 - val_accuracy: 0.7719 - lr: 1.0000e-04
+Epoch 21/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.0602 - accuracy: 0.9786 - val_loss: 0.8625 - val_accuracy: 0.7698 - lr: 1.0000e-04
+Epoch 22/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.0559 - accuracy: 0.9808 - val_loss: 0.8755 - val_accuracy: 0.7673 - lr: 1.0000e-04
+Epoch 23/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.0488 - accuracy: 0.9838 - val_loss: 0.9119 - val_accuracy: 0.7691 - lr: 1.0000e-04
+Epoch 24/25
+495/495 [==============================] - 20s 40ms/step - loss: 0.0464 - accuracy: 0.9850 - val_loss: 0.9292 - val_accuracy: 0.7706 - lr: 1.0000e-04
+Epoch 25/25
+495/495 [==============================] - 20s 41ms/step - loss: 0.0426 - accuracy: 0.9858 - val_loss: 0.9563 - val_accuracy: 0.7744 - lr: 1.0000e-04
